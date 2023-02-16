@@ -4,8 +4,16 @@
     padding: 4rem;
     background-color: #d2e2ec;
 }
+.card-container {
+    margin-left: 15rem;
+    margin-right: 15rem ;
+}
+.icon-number{
+    margin-right: 1rem;
+    border-color: black;
+}
 .colLeft{
     height: 70vh;
     background-image: url('../images/bg-sidebar-desktop.svg');
-    background-size:    100% 100%;
+    background-size:    100% 110%;
 }
