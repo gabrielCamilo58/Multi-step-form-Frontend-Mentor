@@ -11,6 +11,12 @@
 .icon-number{
     margin-right: 1rem;
     border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 100%;
+    width:3rem;
+    height: 3rem;
+    padding: 1rem;
 }
 .colLeft{
     height: 70vh;
