@@ -7,6 +7,8 @@
 .card-container {
     margin-left: 15rem;
     margin-right: 15rem ;
+    min-width: 45rem;
+    min-height: 20rem;
 }
 .icon-number{
     margin-right: 1rem;
@@ -14,12 +16,30 @@
     border-width: 1px;
     border-style: solid;
     border-radius: 100%;
+    border-color: #d2e2ec;
     width:3rem;
     height: 3rem;
     padding: 1rem;
 }
 .colLeft{
+    font-family: 'Ubuntu', sans-serif;
     height: 70vh;
     background-image: url('../images/bg-sidebar-desktop.svg');
-    background-size:    100% 110%;
+    background-size: cover;
+    color: #d2e2ec;
+    font-family: 'Ubuntu-Bold';
+}
+
+.grid{
+    display: grid !important; 
+    grid-template-columns: 2fr 4fr;
+
+}
+.colRight{
+    padding-left: 3rem;
+    padding-top: 2rem;
+}
+.colRight > div > p{
+    font-family: 'Ubuntu', sans-serif;
+    color: #afb7bd;
 }
