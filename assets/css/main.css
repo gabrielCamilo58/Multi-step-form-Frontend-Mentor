@@ -30,6 +30,16 @@
     font-family: 'Ubuntu-Bold';
 }
 
+.cardsProducts > .col-3{
+    border-color: rgb(45, 61, 105);
+    border-width: 1px;
+    border-radius: 0.5rem;
+    border-style: solid;
+}
+
+.hidden{
+    display: none;
+}
 .grid{
     display: grid !important; 
     grid-template-columns: 2fr 4fr;
@@ -38,8 +48,11 @@
 .colRight{
     padding-left: 3rem;
     padding-top: 2rem;
+    font-family: 'Ubuntu', sans-serif;
+    color: #084977;
 }
 .colRight > div > p{
     font-family: 'Ubuntu', sans-serif;
     color: #afb7bd;
+    margin-bottom: 1rem;
 }
