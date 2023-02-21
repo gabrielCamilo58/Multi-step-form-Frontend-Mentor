@@ -30,11 +30,15 @@
     font-family: 'Ubuntu-Bold';
 }
 
-.cardsProducts > .col-3{
+.cardsProducts > .col-3, .col-12{
     border-color: rgb(45, 61, 105);
     border-width: 1px;
     border-radius: 0.5rem;
     border-style: solid;
+}
+
+.cardsProducts > .col-12{
+   max-width: 27rem;
 }
 
 .hidden{
