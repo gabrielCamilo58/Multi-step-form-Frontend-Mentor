@@ -41,6 +41,10 @@
    max-width: 27rem;
 }
 
+.selected{
+    background-color: #a0c7e0;
+    color: black;
+}
 .hidden{
     display: none;
 }
